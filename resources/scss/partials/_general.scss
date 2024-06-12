@@ -1,0 +1,42 @@
+:root {
+
+    --brand-bg :#212529;
+    --brand-color :#74ef2d;
+    --card-bg: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(85,85,85,1) 100%);
+
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 50%;
+}
+::-webkit-scrollbar-track {
+    background: black; 
+}
+::-webkit-scrollbar-thumb {
+    background: var(--brand-bg); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--brand-color); 
+}
+
+
+body {
+    color: white;
+    background: var(--brand-bg);
+}
+
+.btn-dark{
+
+    border: 1px solid transparent;
+
+    &:hover {
+        color: var(--brand-color);
+        border: 1px solid var(--brand-color);
+    }
+}
+
+// [class^="table"]  {
+//     background: var(--card-bg);
+// }
+

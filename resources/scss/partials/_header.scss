@@ -1,0 +1,41 @@
+.header-nav, .project-page, .type-page {
+
+    // a {
+    //     color: white;
+    // }
+
+    a:hover{
+        color: var(--brand-color);
+    }
+
+
+    .dropdown-item {
+        color:  var(--brand-color);
+
+        &:hover {
+            background-color: var(--card-color);
+            color: white;
+        }
+    }
+
+    .dropdown-toggle {
+        color: white;
+    }
+
+    .dropdown-toggle:after, .nav-link::after {
+        color: var(--brand-color);
+    }
+
+    img {
+        width: 50px;
+    }
+
+    .dropdown-menu {
+        background-image: url('../img/texture-card.jpg');
+    background-size: cover;
+        border: solid 1px var(--brand-color);
+    }
+
+    
+}
+

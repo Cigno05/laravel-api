@@ -1,0 +1,12 @@
+.footer-nav {
+    color: white;
+    font-size: 14px;
+
+    & a {
+        color: var(--brand-color);
+    }
+
+    a:hover {
+        color: white;
+    }
+}
